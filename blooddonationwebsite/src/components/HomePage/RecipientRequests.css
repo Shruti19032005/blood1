@@ -1,0 +1,147 @@
+.recipient-requests {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+}
+
+h1 {
+    text-align: center;
+    color: rgb(2, 2, 2); /* Dark red for the title */
+}
+h2
+{
+    text-align: center;
+    color: rgb(87, 3, 3); /* Dark red for the title */
+}
+.quote {
+    font-style: italic;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 5px solid darkred; /* Decorative left border */
+}
+
+.requests-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between cards */
+    justify-content: center; /* Center cards */
+}
+
+.request-card {
+    background-color: darkred; /* Dark red background */
+    color: white; /* White text color */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    width: 220px; /* Set a fixed width */
+    flex: 1 1 220px; /* Allow it to be responsive */
+    transition: transform 0.2s; /* Animation for hover effect */
+}
+
+.request-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.request-card h3 {
+    margin: 0 0 10px; /* Margin for the title */
+    font-size: 22px; /* Adjust the title font size */
+}
+
+.request-card ul {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.request-card li {
+    font-size: 14px; /* Font size for list items */
+    line-height: 1.5; /* Line height for better readability */
+}
+
+/* Modal styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensure modal is above other content */
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%; /* Responsive width */
+    max-width: 500px; /* Max width for the modal */
+    max-height: 80vh; /* Maximum height for the modal */
+    overflow-y: auto; /* Enable vertical scrolling */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    position: relative; /* Position relative for close button */
+}
+
+.close {
+    cursor: pointer;
+    position: absolute; /* Position close button in modal */
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+}
+
+.success-message {
+    color: green; /* Green color for success message */
+    font-weight: bold;
+    margin: 10px 0; /* Space around the message */
+    text-align: center; /* Center the message */
+}
+
+.request-form {
+    margin-top: 20px; /* Space between title and form */
+}
+
+.request-form label {
+    display: block; /* Each label on a new line */
+    margin: 10px 0 5px; /* Space above and below labels */
+}
+
+.request-form input,
+.request-form select {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding for input fields */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below each input field */
+}
+
+.request-form button {
+    background-color: darkred; /* Dark red background for the button */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer on hover */
+}
+
+.request-form button:hover {
+    background-color: #b22222; /* Slightly darker red on hover */
+}
+
+.register-button {
+    background-color: darkred; /* Dark red background for the button */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer on hover */
+    margin: 20px auto; /* Center the button */
+    display: block; /* Center button */
+}
+
+.register-button:hover {
+    background-color: #b22222; /* Slightly darker red on hover */
+}

@@ -1,0 +1,53 @@
+/* src/components/HomePage/RecipientForm.css */
+
+.recipient-form {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipient-form h2 {
+    color: red; /* Attractive title color */
+}
+
+.recipient-form label {
+    display: block; /* Each label on a new line */
+    margin: 10px 0 5px; /* Space above and below labels */
+}
+
+.recipient-form input,
+.recipient-form select {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding for input fields */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below each input field */
+}
+
+.recipient-form button {
+    background-color: red; /* Attractive button color */
+    color: white; /* White text */
+    padding: 10px 15px;
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.recipient-details {
+    margin-top: 20px; /* Space above the details */
+}
+
+.recipient-card {
+    border: 1px solid #eaeaea; /* Border for cards */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #fff; /* White background for cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipient-card h3 {
+    color: red; /* Red for the name */
+}

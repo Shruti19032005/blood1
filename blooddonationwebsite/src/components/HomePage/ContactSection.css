@@ -1,0 +1,38 @@
+.contact-section {
+  padding: 70px 50px;
+  background-color: #980000;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.contact-section button {
+  background-color: #e60023; /* Red background */
+  color: #ffffff; /* White text */
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  width: 500px;
+}
+
+.contact-section button:hover {
+  background-color: #ff6666; /* Lighter red on hover */
+  transform: scale(1.05); /* Slight zoom */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
